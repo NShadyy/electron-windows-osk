@@ -1,0 +1,40 @@
+{
+  "name": "electron-windows-osk-demo",
+  "productName": "Electron Windows OSK",
+  "version": "1.0.0",
+  "description": "Demo POC for opening windows on-screen keyboard in Electron app",
+  "main": "main.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,css,html}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --cache --ext .js",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NShadyy/electron-windows-osk.git"
+  },
+  "keywords": [
+    "electron",
+    "windows",
+    "osk",
+    "windows-osk",
+    "on-screen-keyboard"
+  ],
+  "author": "Nakul Sharma (https://www.linkedin.com/in/nakul-sharma-600a20a4/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NShadyy/electron-windows-osk/issues"
+  },
+  "homepage": "https://github.com/NShadyy/electron-windows-osk#readme",
+  "dependencies": {
+    "electron": "^10.1.5",
+    "electron-windows-osk": "^1.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.1.2"
+  }
+}

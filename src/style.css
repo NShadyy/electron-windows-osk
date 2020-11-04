@@ -1,0 +1,27 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.field-container {
+  display: block;
+  padding: 5px;
+}
+
+.field-label {
+  display: inline-flex;
+  margin: 0 16px 0 0;
+}
+
+.field {
+  padding: 5px;
+}
